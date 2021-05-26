@@ -104,6 +104,5 @@ def delete(table,name):
 		return redirect(url_for('show_country'))
 	else:
 		return redirect(url_for('index'))
-
 if __name__ == '__main__':
     app.run()
